@@ -53,3 +53,13 @@ validates syntax, if correct then it will show the resource it will create.
 3. terraform apply --> creates infra
 
 4. terraform destroy --> destroy infra
+
+--------------------------session-2-----------------------
+variables
+data types
+conditions
+loops
+functions
+
+variable: 
+
