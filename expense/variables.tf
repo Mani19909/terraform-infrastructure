@@ -45,3 +45,14 @@ variable "allowed_cidr" {
     type = list(string)
     default = ["0.0.0.0/0"]
 }
+
+
+# route53 variable
+
+variable "zone_id" {
+    default = "Z0470821126DQ6ZURJNW0"
+}
+
+variable "domain_name"{
+    default = "daws.in.info"
+}
