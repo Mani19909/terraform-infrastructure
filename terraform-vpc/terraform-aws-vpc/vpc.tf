@@ -75,7 +75,7 @@ resource "aws_subnet" "database" { # first name is public[0], second name is pub
 
 resource "aws_db_subnet_group" "default" {
     name = "${local.resource_name}"
-    subnet_id = aws_subnet.database[*].id
+    subnet_ids = aws_subnet.database[*].id
 
     tags = merge (
         var.common_tags,
