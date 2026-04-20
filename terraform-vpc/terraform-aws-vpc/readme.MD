@@ -19,3 +19,6 @@ This module is developed for joindevops.com. We are creating following resource.
 * Routes in all tables
 * Peering if required for user
 * Routes of peering in requstor and acceptor VPC.
+* Database subnet group
+### Input
+* project_name (required)
